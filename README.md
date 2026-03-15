@@ -4,7 +4,7 @@ A Python toolkit for simplifying dataset preparation and preprocessing.
 
 ## Installation
 ```bash
-pip install datasetops
+pip install datasetops-toolkit
 ```
 
 ## Usage
