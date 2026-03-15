@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name = "datasetops"
+version = "0.1.0"
+description = "A Python toolkit for simplifying dataset preparation and preprocessing"
+readme = "README.md"
+requires-python = ">=3.7"
+license = {text = "MIT"}
+authors = [
+  {name = "Your Name", email = "your@email.com"}
+]
+dependencies = [
+    "pandas",
+    "numpy",
+    "matplotlib",
+    "seaborn",
+    "scikit-learn",
+    "openpyxl"
+]
+
+[project.urls]
+Homepage = "https://github.com/yourusername/datasetops"
